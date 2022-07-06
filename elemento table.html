@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Elemento table</title>
+</head>
+<body>
+    <header>
+        <h1>Elementos thead tbody e tfoot</h1>
+        <h3>Exemplo atributo rownspan</h2>
+    </header>
+
+    <article>
+        <table>
+            <caption>Dinheiro poupado em 2020</caption>
+            <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Poupança</th>
+                <th>Poupado p/ aniversário!</th>
+            </tr>
+            </thead>
+            
+            <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$100</td>
+                <td rowspan="2">R$50</td> <!-- exemplo atributo rowspan-->
+            </tr>
+            
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$80</td>
+            </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Soma:</td>
+                    <td>R$180</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br />
+        </article>
+        <footer>
+            <small>Istituto da Oportunidade Social</small>
+        </footer>
+
+        <header>
+            <h3>Exemplo de atributo colspan</h3>
+        </header>
+
+        <article>
+            <table>
+                <caption>Vendas do Produto X</caption>
+                <thead>
+                    <tr>
+                        <th colspan="4">Vendas Trimestrais</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th rowspan="3">2010</th>
+                        <td>144.000</td>
+                    </tr>
+
+                    <tr>
+                        <td>179.580</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>254.000</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </article>
+        <footer>
+            <small>Instituto da Oportunidade Social</small>
+        </footer>
+</body>
+</html>
